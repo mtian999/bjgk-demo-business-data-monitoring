@@ -1,0 +1,96 @@
+.container {
+  padding: 24px;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin: 0;
+}
+
+.tableCard {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+.statusSuccess {
+  color: #52c41a;
+}
+
+.statusFailed {
+  color: #ff4d4f;
+}
+
+.statusTriggered {
+  color: #faad14;
+}
+
+.filterBar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  background: #fafafa;
+  border-radius: 8px 8px 0 0;
+}
+
+.errorMessage {
+  color: #ff4d4f;
+  font-size: 12px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.statsCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.statCard {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.statLabel {
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-bottom: 8px;
+}
+
+.statValue {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.statSuccess {
+  color: #52c41a;
+}
+
+.statFailed {
+  color: #ff4d4f;
+}
+
+.statTriggered {
+  color: #faad14;
+}
+
+.statTotal {
+  color: #1890ff;
+}
